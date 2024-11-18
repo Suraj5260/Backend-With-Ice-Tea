@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
     if (req.url === '/') {
         res.statusCode = 200
         res.setHeader('Content-Type', 'text/plain')
-        res.end("Hello Ice Tea!!")
+        res.end("Hello Coder!!")
     } else if (req.url === '/ice-tea') {
         res.statusCode = 200
         res.setHeader('Content-Type', 'text/plain')
