@@ -1,16 +1,21 @@
 {
-	"name": "tea-manager",
+	"name": "002_express",
 	"version": "1.0.0",
-	"description": "a simple manager for differnt tea",
 	"main": "index.js",
+	"type": "module",
 	"scripts": {
-		"start": "node index.js"
+		"start": "node index.js",
+		"dev": "nodemon index.js"
 	},
-	"keywords": [
-		"express",
-		"tea"
-	],
-	"author": "suraj telrandhe",
-	"license": "ISC"
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"express": "^4.21.1"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.7"
+	}
 }
 
